@@ -121,6 +121,19 @@ ul.skills {
   background: #53c2ea;
 }
 
+section.experience {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: auto;
+  text-align: left;
+  background: white;
+  border-bottom: 4px solid hotpink;
+  border-radius: 6px;
+  transition: all .5s;
+  color: #1f8a4e;
+}
+
+
 footer {
   width: 100%;
   min-height: 30px;
