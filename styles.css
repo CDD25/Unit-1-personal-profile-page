@@ -61,7 +61,7 @@ a.email-link {
 
 header {
   text-align: center;
-  background: url('../personal-profile-page/images/banana-background.jpg') no-repeat top center ;
+  background: url('/images/banana-background.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -172,9 +172,7 @@ a.social {
 a.twitter {
   background-image: url(images/twitter.svg);
 }
-a.linkedin {
-  background-image: url(images/linkedin.svg);
-}
+
 a.github {
   background-image: url(images/github.svg);
 }
