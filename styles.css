@@ -1,25 +1,28 @@
 /* Global Layout Set-up */
-* { 
+* {
   box-sizing: border-box;
 }
-  
+
 body {
   margin: 0;
   padding: 0;
   text-align: center;
   font-family: 'Roboto', sans-serif;
-  color: white;
-  background: #53c2ea;
+  color: #e94793;
+  background: white;
 }
+
 /* Link Styles */
 
 a {
   text-decoration: none;
-  color: white;
+  color: black;
 }
+
 a:hover {
   color: #e94793;
 }
+
 a.email-link {
   text-decoration: none;
   color: #1f8a4e;
@@ -29,12 +32,13 @@ a.email-link {
 
 .main-nav {
   width: 100%;
-  background: #53c2ea;
+  background: white;
   min-height: 30px;
   padding: 10px;
   position: fixed;
   text-align: center;
 }
+
 .nav {
   display: flex;
   justify-content: space-around;
@@ -45,66 +49,83 @@ a.email-link {
 }
 
 .nav .name {
-    display: block;
-    margin-right: auto;
-    color: white;
+  display: block;
+  margin-right: auto;
+  color: black;
 }
+
 .nav li {
   padding: 5px 10px 10px 10px;
 }
+
 .nav a {
   transition: all .5s;
 }
+
 .nav a:hover {
-  color: white
+  color: #e94793
 }
 
 header {
   text-align: center;
-  background: url('/images/banana-background.jpg') no-repeat top center ;
+  background: url('/images/banana-background.jpg') no-repeat top center;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
 }
+
 header {
   line-height: 1.5;
 }
+
 header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 2px solid black;
   transition: all .5s;
 }
+
 header .profile-image:hover {
   transform: scale(1.2) rotate(-15deg);
 }
+
 .tag {
   background-color: white;
-  color: #1f8a4e;
+  color: black;
   padding: 10px;
   border-radius: 5px;
+  border: 2px solid black;
   display: table;
   margin: 10px auto;
-} 
+}
+
 .location {
   background-color: white;
-  color: #1f8a4e;
+  border: 2px solid black;
+  color: black;
 }
+
+span {
+  color: #e94793;
+  font-weight: bolder;
+}
+
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
   background: white;
-  border-bottom: 4px solid hotpink;
+  border: 4px solid black;
   border-radius: 6px;
   transition: all .5s;
-  color: #1f8a4e;
+  color: black;
 }
+
 .card:hover {
-  border-color: #1f8a4e;
+  border-color: #53c2ea;
 }
 
 ul.skills {
@@ -137,6 +158,26 @@ section.experience {
   color: #1f8a4e;
 }
 
+.oops-img {
+  width: 30%;
+  float: left;
+  margin-right: 10px;
+}
+
+.oops-img:hover {
+  transform: scale(1.2) rotate(-15deg);
+}
+
+.email-icon {
+  width: 20%;
+  float: right;
+
+}
+
+.email-me {
+  text-align: center;
+  color: #f83c21
+}
 
 footer {
   width: 100%;
@@ -169,6 +210,7 @@ a.social {
   opacity: .4;
   transition: all .5s;
 }
+
 a.twitter {
   background-image: url(images/twitter.svg);
 }
@@ -176,23 +218,26 @@ a.twitter {
 a.github {
   background-image: url(images/github.svg);
 }
+
 a.social:hover {
   opacity: 1;
 }
+
 .clearfix {
   clear: both;
 }
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
-  
+
   .flex {
-      display: -ms-flexbox;      /* TWEENER - IE 10 */
-      display: flex; 
-      max-width: 1200px;
-      -ms-flex-pack: distribute;
-      justify-content: space-around;
-      margin: 0 auto;
+    display: -ms-flexbox;
+    /* TWEENER - IE 10 */
+    display: flex;
+    max-width: 1200px;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    margin: 0 auto;
   }
 
   header {
@@ -220,4 +265,3 @@ a.social:hover {
   }
 
 }
-
