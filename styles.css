@@ -68,7 +68,7 @@ a.email-link {
 
 header {
   text-align: center;
-  background: url('/images/banana-background.jpg') no-repeat top center;
+  background: url('images/banana-background.jpg') no-repeat top center;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -129,7 +129,7 @@ span {
 }
 
 .card-pages {
-  margin: 30px;
+  margin: auto;
   padding: 20px 40px 40px;
   max-width: 1200px;
   text-align: center;
